@@ -5,7 +5,7 @@ Hunt the Wumpus with randomized cave layout
 This is a python implementation of Wumpus from the book, *Apple Pascal Games* written by Douglas Hergert. It uses a ramdomized cave rather than the standard dodecahedron layout for the cave.
 
 ## Roadmap
-- [ ] Wumpus as in *Apple Pascal Games*
+- [x] Wumpus as in *Apple Pascal Games*
 - [ ] Room descriptions - similar to **Super Wumpus Land**
 - [ ] Additional treasure that scattered throughout the cave that can be collected for score
 - [ ] Weapons that can be used to combat other monsters (Goblins, Trolls, Dark Knights, etc.) for treasure
