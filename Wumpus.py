@@ -17,7 +17,7 @@ HELP = "?"
 
 def do_instructions():
     print("\n")
-    print("Your mission, should you desire to accept it, is it hunt for the")
+    print("Your mission, should you desire to accept it, is to hunt for the")
     print("Wumpus in his cave. To succeed, you must shoot it with one of your")
     print(NUMBER_OF_ARROWS,"arrows. If you shoot into a room which is not directly connected to")
     print("yours, the arrow will bounce to one of the rooms that does connect.")
@@ -110,7 +110,6 @@ def checkbats():
         while (player in bats+pits or player == wumpus):
             player = randint(1,MAX_ROOMS)
         print("A superbat picked you up and carried you off")
-        print(player)
 
 # checkpits
 # determines if the player fell into a pit
